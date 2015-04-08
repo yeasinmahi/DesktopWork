@@ -1,0 +1,6 @@
+E:\ashik\StackOverviewApp\StackOverviewApp\bin\Debug\StackOverviewApp.exe.config
+E:\ashik\StackOverviewApp\StackOverviewApp\bin\Debug\StackOverviewApp.exe
+E:\ashik\StackOverviewApp\StackOverviewApp\bin\Debug\StackOverviewApp.pdb
+E:\ashik\StackOverviewApp\StackOverviewApp\obj\Debug\StackOverviewApp.csprojResolveAssemblyReference.cache
+E:\ashik\StackOverviewApp\StackOverviewApp\obj\Debug\StackOverviewApp.exe
+E:\ashik\StackOverviewApp\StackOverviewApp\obj\Debug\StackOverviewApp.pdb

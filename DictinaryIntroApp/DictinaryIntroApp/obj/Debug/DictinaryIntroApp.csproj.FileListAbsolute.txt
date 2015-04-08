@@ -1,0 +1,5 @@
+E:\ashik\DictinaryIntroApp\DictinaryIntroApp\bin\Debug\DictinaryIntroApp.exe.config
+E:\ashik\DictinaryIntroApp\DictinaryIntroApp\bin\Debug\DictinaryIntroApp.exe
+E:\ashik\DictinaryIntroApp\DictinaryIntroApp\bin\Debug\DictinaryIntroApp.pdb
+E:\ashik\DictinaryIntroApp\DictinaryIntroApp\obj\Debug\DictinaryIntroApp.exe
+E:\ashik\DictinaryIntroApp\DictinaryIntroApp\obj\Debug\DictinaryIntroApp.pdb

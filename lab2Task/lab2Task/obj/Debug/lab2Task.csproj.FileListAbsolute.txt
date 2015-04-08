@@ -1,0 +1,5 @@
+c:\users\web app develop .net\documents\visual studio 2013\Projects\lab2Task\lab2Task\bin\Debug\lab2Task.exe.config
+c:\users\web app develop .net\documents\visual studio 2013\Projects\lab2Task\lab2Task\bin\Debug\lab2Task.exe
+c:\users\web app develop .net\documents\visual studio 2013\Projects\lab2Task\lab2Task\bin\Debug\lab2Task.pdb
+c:\users\web app develop .net\documents\visual studio 2013\Projects\lab2Task\lab2Task\obj\Debug\lab2Task.exe
+c:\users\web app develop .net\documents\visual studio 2013\Projects\lab2Task\lab2Task\obj\Debug\lab2Task.pdb

@@ -1,0 +1,10 @@
+c:\users\sami\documents\visual studio 2013\Projects\problemSet01\problemSet01\bin\Debug\problemSet01.exe.config
+c:\users\sami\documents\visual studio 2013\Projects\problemSet01\problemSet01\bin\Debug\problemSet01.exe
+c:\users\sami\documents\visual studio 2013\Projects\problemSet01\problemSet01\bin\Debug\problemSet01.pdb
+c:\users\sami\documents\visual studio 2013\Projects\problemSet01\problemSet01\obj\Debug\problemSet01.Form1.resources
+c:\users\sami\documents\visual studio 2013\Projects\problemSet01\problemSet01\obj\Debug\problemSet01.Properties.Resources.resources
+c:\users\sami\documents\visual studio 2013\Projects\problemSet01\problemSet01\obj\Debug\problemSet01.csproj.GenerateResource.Cache
+c:\users\sami\documents\visual studio 2013\Projects\problemSet01\problemSet01\obj\Debug\problemSet01.exe
+c:\users\sami\documents\visual studio 2013\Projects\problemSet01\problemSet01\obj\Debug\problemSet01.pdb
+C:\Users\sami\documents\visual studio 2013\Projects\problemSet01\problemSet01\obj\Debug\problemSet01.csprojResolveAssemblyReference.cache
+C:\Users\sami\documents\visual studio 2013\Projects\problemSet01\problemSet01\obj\Debug\problemSet01.Form2.resources

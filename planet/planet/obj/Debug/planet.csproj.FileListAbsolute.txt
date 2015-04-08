@@ -1,0 +1,9 @@
+E:\Study\Basis\git\basis\planet\planet\bin\Debug\planet.exe.config
+E:\Study\Basis\git\basis\planet\planet\bin\Debug\planet.exe
+E:\Study\Basis\git\basis\planet\planet\bin\Debug\planet.pdb
+E:\Study\Basis\git\basis\planet\planet\obj\Debug\planet.csprojResolveAssemblyReference.cache
+E:\Study\Basis\git\basis\planet\planet\obj\Debug\planet.Planet.resources
+E:\Study\Basis\git\basis\planet\planet\obj\Debug\planet.Properties.Resources.resources
+E:\Study\Basis\git\basis\planet\planet\obj\Debug\planet.csproj.GenerateResource.Cache
+E:\Study\Basis\git\basis\planet\planet\obj\Debug\planet.exe
+E:\Study\Basis\git\basis\planet\planet\obj\Debug\planet.pdb

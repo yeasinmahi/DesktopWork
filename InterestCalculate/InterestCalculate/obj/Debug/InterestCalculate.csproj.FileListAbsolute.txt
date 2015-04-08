@@ -1,0 +1,9 @@
+E:\Study\Basis\git\basis\InterestCalculate\InterestCalculate\bin\Debug\InterestCalculate.exe.config
+E:\Study\Basis\git\basis\InterestCalculate\InterestCalculate\bin\Debug\InterestCalculate.exe
+E:\Study\Basis\git\basis\InterestCalculate\InterestCalculate\bin\Debug\InterestCalculate.pdb
+E:\Study\Basis\git\basis\InterestCalculate\InterestCalculate\obj\Debug\InterestCalculate.csprojResolveAssemblyReference.cache
+E:\Study\Basis\git\basis\InterestCalculate\InterestCalculate\obj\Debug\InterestCalculate.Properties.Resources.resources
+E:\Study\Basis\git\basis\InterestCalculate\InterestCalculate\obj\Debug\InterestCalculate.csproj.GenerateResource.Cache
+E:\Study\Basis\git\basis\InterestCalculate\InterestCalculate\obj\Debug\InterestCalculate.exe
+E:\Study\Basis\git\basis\InterestCalculate\InterestCalculate\obj\Debug\InterestCalculate.pdb
+E:\Study\Basis\git\basis\InterestCalculate\InterestCalculate\obj\Debug\InterestCalculate.interestCalculator.resources

@@ -1,0 +1,6 @@
+c:\users\sami\documents\visual studio 2013\Projects\cgpa_Calculate\cgpa_Calculate\bin\Debug\cgpa_Calculate.exe.config
+C:\Users\sami\documents\visual studio 2013\Projects\cgpa_Calculate\cgpa_Calculate\bin\Debug\cgpa_Calculate.exe
+C:\Users\sami\documents\visual studio 2013\Projects\cgpa_Calculate\cgpa_Calculate\bin\Debug\cgpa_Calculate.pdb
+C:\Users\sami\documents\visual studio 2013\Projects\cgpa_Calculate\cgpa_Calculate\obj\Debug\cgpa_Calculate.csprojResolveAssemblyReference.cache
+C:\Users\sami\documents\visual studio 2013\Projects\cgpa_Calculate\cgpa_Calculate\obj\Debug\cgpa_Calculate.exe
+C:\Users\sami\documents\visual studio 2013\Projects\cgpa_Calculate\cgpa_Calculate\obj\Debug\cgpa_Calculate.pdb
