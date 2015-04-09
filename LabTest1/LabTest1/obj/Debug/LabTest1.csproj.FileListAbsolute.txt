@@ -1,0 +1,9 @@
+E:\Study\Basis\git\basis\LabTest1\LabTest1\bin\Debug\LabTest1.exe.config
+E:\Study\Basis\git\basis\LabTest1\LabTest1\obj\Debug\LabTest1.csprojResolveAssemblyReference.cache
+E:\Study\Basis\git\basis\LabTest1\LabTest1\obj\Debug\LabTest1.Form1.resources
+E:\Study\Basis\git\basis\LabTest1\LabTest1\obj\Debug\LabTest1.Properties.Resources.resources
+E:\Study\Basis\git\basis\LabTest1\LabTest1\obj\Debug\LabTest1.csproj.GenerateResource.Cache
+E:\Study\Basis\git\basis\LabTest1\LabTest1\bin\Debug\LabTest1.exe
+E:\Study\Basis\git\basis\LabTest1\LabTest1\bin\Debug\LabTest1.pdb
+E:\Study\Basis\git\basis\LabTest1\LabTest1\obj\Debug\LabTest1.exe
+E:\Study\Basis\git\basis\LabTest1\LabTest1\obj\Debug\LabTest1.pdb
