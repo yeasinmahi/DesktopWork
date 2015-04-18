@@ -4,3 +4,9 @@ c:\users\sami\documents\visual studio 2013\Projects\problemSet01Part2\problemSet
 c:\users\sami\documents\visual studio 2013\Projects\problemSet01Part2\problemSet01Part2\bin\Debug\problemSet01Part2.pdb
 c:\users\sami\documents\visual studio 2013\Projects\problemSet01Part2\problemSet01Part2\obj\Debug\problemSet01Part2.exe
 c:\users\sami\documents\visual studio 2013\Projects\problemSet01Part2\problemSet01Part2\obj\Debug\problemSet01Part2.pdb
+E:\Study\Basis\git\Personal\problemSet01Part2\problemSet01Part2\bin\Debug\problemSet01Part2.exe.config
+E:\Study\Basis\git\Personal\problemSet01Part2\problemSet01Part2\obj\Debug\problemSet01Part2.exe
+E:\Study\Basis\git\Personal\problemSet01Part2\problemSet01Part2\obj\Debug\problemSet01Part2.pdb
+E:\Study\Basis\git\Personal\problemSet01Part2\problemSet01Part2\bin\Debug\problemSet01Part2.exe
+E:\Study\Basis\git\Personal\problemSet01Part2\problemSet01Part2\bin\Debug\problemSet01Part2.pdb
+E:\Study\Basis\git\Personal\problemSet01Part2\problemSet01Part2\obj\Debug\problemSet01Part2.csprojResolveAssemblyReference.cache

@@ -7,3 +7,6 @@ E:\Study\Basis\git\basis\LabTest1\LabTest1\bin\Debug\LabTest1.exe
 E:\Study\Basis\git\basis\LabTest1\LabTest1\bin\Debug\LabTest1.pdb
 E:\Study\Basis\git\basis\LabTest1\LabTest1\obj\Debug\LabTest1.exe
 E:\Study\Basis\git\basis\LabTest1\LabTest1\obj\Debug\LabTest1.pdb
+E:\Study\Basis\git\Personal\LabTest1\LabTest1\bin\Debug\LabTest1.exe.config
+E:\Study\Basis\git\Personal\LabTest1\LabTest1\obj\Debug\LabTest1.exe
+E:\Study\Basis\git\Personal\LabTest1\LabTest1\obj\Debug\LabTest1.pdb

@@ -7,3 +7,12 @@ E:\Study\Basis\git\basis\EmailKepper\EmailKepper\obj\Debug\EmailKepper.Propertie
 E:\Study\Basis\git\basis\EmailKepper\EmailKepper\obj\Debug\EmailKepper.csproj.GenerateResource.Cache
 E:\Study\Basis\git\basis\EmailKepper\EmailKepper\obj\Debug\EmailKepper.exe
 E:\Study\Basis\git\basis\EmailKepper\EmailKepper\obj\Debug\EmailKepper.pdb
+E:\Study\Basis\git\Personal\EmailKepper\EmailKepper\bin\Debug\EmailKepper.exe.config
+E:\Study\Basis\git\Personal\EmailKepper\EmailKepper\obj\Debug\EmailKepper.exe
+E:\Study\Basis\git\Personal\EmailKepper\EmailKepper\obj\Debug\EmailKepper.pdb
+E:\Study\Basis\git\Personal\EmailKepper\EmailKepper\bin\Debug\EmailKepper.exe
+E:\Study\Basis\git\Personal\EmailKepper\EmailKepper\bin\Debug\EmailKepper.pdb
+E:\Study\Basis\git\Personal\EmailKepper\EmailKepper\obj\Debug\EmailKepper.csprojResolveAssemblyReference.cache
+E:\Study\Basis\git\Personal\EmailKepper\EmailKepper\obj\Debug\EmailKepper.Form1.resources
+E:\Study\Basis\git\Personal\EmailKepper\EmailKepper\obj\Debug\EmailKepper.Properties.Resources.resources
+E:\Study\Basis\git\Personal\EmailKepper\EmailKepper\obj\Debug\EmailKepper.csproj.GenerateResource.Cache

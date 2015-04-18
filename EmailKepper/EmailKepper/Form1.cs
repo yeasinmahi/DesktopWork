@@ -13,7 +13,7 @@ namespace EmailKepper
 {
     public partial class Form1 : Form
     {
-        private List<string> _addEmaiList= new List<string>();
+        private readonly List<string> _addEmaiList= new List<string>();
         private  List<string>  _searchEmaiList = new List<string>();
         public Form1()
         {
