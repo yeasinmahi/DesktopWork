@@ -8,7 +8,7 @@ namespace problemSet01Part2
 {
     class Circle
     {
-        const double pi = 3.1416;
+        const double pi = Math.PI;
         public void circle()
         {
             Console.WriteLine("Enter the radious of a circle ");

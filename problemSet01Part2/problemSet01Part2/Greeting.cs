@@ -12,7 +12,7 @@ namespace problemSet01Part2
         {
             Console.Write("Enter your name Please ");
             string name=Console.ReadLine();
-            Console.WriteLine("Hi, "+name+".\n\t\t Have a nice day.");
+            Console.WriteLine("Hi, "+name+".\n\t Have a nice day.");
         }
     }
 }
