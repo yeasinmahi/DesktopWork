@@ -29,16 +29,16 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.accountNumberTextBox = new System.Windows.Forms.TextBox();
-            this.customerNameTextBox = new System.Windows.Forms.TextBox();
             this.createButton = new System.Windows.Forms.Button();
+            this.customerNameTextBox = new System.Windows.Forms.TextBox();
+            this.accountNumberTextBox = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.depositButton = new System.Windows.Forms.Button();
             this.widrowButton = new System.Windows.Forms.Button();
             this.amountTextBox = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.depositButton = new System.Windows.Forms.Button();
             this.reportButton = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -58,14 +58,29 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Account Craetion";
             // 
-            // label1
+            // createButton
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(38, 25);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(87, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Account Number";
+            this.createButton.Location = new System.Drawing.Point(212, 96);
+            this.createButton.Name = "createButton";
+            this.createButton.Size = new System.Drawing.Size(123, 23);
+            this.createButton.TabIndex = 4;
+            this.createButton.Text = "Create";
+            this.createButton.UseVisualStyleBackColor = true;
+            this.createButton.Click += new System.EventHandler(this.createButton_Click);
+            // 
+            // customerNameTextBox
+            // 
+            this.customerNameTextBox.Location = new System.Drawing.Point(142, 54);
+            this.customerNameTextBox.Name = "customerNameTextBox";
+            this.customerNameTextBox.Size = new System.Drawing.Size(193, 20);
+            this.customerNameTextBox.TabIndex = 3;
+            // 
+            // accountNumberTextBox
+            // 
+            this.accountNumberTextBox.Location = new System.Drawing.Point(142, 18);
+            this.accountNumberTextBox.Name = "accountNumberTextBox";
+            this.accountNumberTextBox.Size = new System.Drawing.Size(193, 20);
+            this.accountNumberTextBox.TabIndex = 2;
             // 
             // label2
             // 
@@ -76,29 +91,14 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Customer Name";
             // 
-            // accountNumberTextBox
+            // label1
             // 
-            this.accountNumberTextBox.Location = new System.Drawing.Point(142, 18);
-            this.accountNumberTextBox.Name = "accountNumberTextBox";
-            this.accountNumberTextBox.Size = new System.Drawing.Size(193, 20);
-            this.accountNumberTextBox.TabIndex = 2;
-            // 
-            // customerNameTextBox
-            // 
-            this.customerNameTextBox.Location = new System.Drawing.Point(142, 54);
-            this.customerNameTextBox.Name = "customerNameTextBox";
-            this.customerNameTextBox.Size = new System.Drawing.Size(193, 20);
-            this.customerNameTextBox.TabIndex = 3;
-            // 
-            // createButton
-            // 
-            this.createButton.Location = new System.Drawing.Point(212, 101);
-            this.createButton.Name = "createButton";
-            this.createButton.Size = new System.Drawing.Size(123, 23);
-            this.createButton.TabIndex = 4;
-            this.createButton.Text = "Create";
-            this.createButton.UseVisualStyleBackColor = true;
-            this.createButton.Click += new System.EventHandler(this.createButton_Click);
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(38, 25);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(87, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Account Number";
             // 
             // groupBox2
             // 
@@ -112,6 +112,16 @@
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Transection";
+            // 
+            // depositButton
+            // 
+            this.depositButton.Location = new System.Drawing.Point(142, 89);
+            this.depositButton.Name = "depositButton";
+            this.depositButton.Size = new System.Drawing.Size(94, 23);
+            this.depositButton.TabIndex = 5;
+            this.depositButton.Text = "Deposit";
+            this.depositButton.UseVisualStyleBackColor = true;
+            this.depositButton.Click += new System.EventHandler(this.depositButton_Click);
             // 
             // widrowButton
             // 
@@ -138,16 +148,6 @@
             this.label4.Size = new System.Drawing.Size(43, 13);
             this.label4.TabIndex = 0;
             this.label4.Text = "Amount";
-            // 
-            // depositButton
-            // 
-            this.depositButton.Location = new System.Drawing.Point(142, 89);
-            this.depositButton.Name = "depositButton";
-            this.depositButton.Size = new System.Drawing.Size(94, 23);
-            this.depositButton.TabIndex = 5;
-            this.depositButton.Text = "Deposit";
-            this.depositButton.UseVisualStyleBackColor = true;
-            this.depositButton.Click += new System.EventHandler(this.depositButton_Click);
             // 
             // reportButton
             // 

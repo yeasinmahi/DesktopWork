@@ -16,7 +16,7 @@ namespace bankingSystem
         {
             InitializeComponent();
         }
-        readonly Customer _customer = new Customer();
+        Customer _customer = new Customer();
         private void createButton_Click(object sender, EventArgs e)
         {
             _customer.CreateAccount(accountNumberTextBox.Text,customerNameTextBox.Text);
