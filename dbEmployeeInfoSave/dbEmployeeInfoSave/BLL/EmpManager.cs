@@ -23,9 +23,9 @@ namespace dbEmployeeInfoSave.BLL
             
         }
 
-        public void Search(string name)
+        public List<EmployeeInfo> Search(string name)
         {
-            
+            return connector.SearchByName(name);
         }
 
         public List<EmployeeInfo> LoadAllEmp()

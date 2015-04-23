@@ -31,28 +31,20 @@ namespace dbEmployeeInfoSave
             }
         }
 
-        public void SearchByName(string name)
+        public List<EmployeeInfo> SearchByName(string name)
         {
             string query = "select * from [emp] where [name] like %"+name+"%";
-            SqlConnection connection = new SqlConnection(connectionString);
-            SqlCommand command = new SqlCommand(query,connection);
-            
-            connection.Open();
-            SqlDataReader reader = command.ExecuteReader();
-            if (reader.HasRows)
-            {
-                
-            }
-            else
-            {
-                
-            }
-            connection.Close();
+            return GiveEmpInfo(query);
         }
 
         public List<EmployeeInfo> LoadAllEmp()
         {
             string query = "select * from [emp]";
+            return GiveEmpInfo(query);
+        }
+
+        private List<EmployeeInfo> GiveEmpInfo(string query)
+        {
             SqlConnection connection = new SqlConnection(connectionString);
             SqlCommand command = new SqlCommand(query, connection);
 
@@ -62,7 +54,7 @@ namespace dbEmployeeInfoSave
             {
                 while (reader.Read())
                 {
-                    EmployeeInfo emp= new EmployeeInfo();
+                    EmployeeInfo emp = new EmployeeInfo();
                     emp.name = reader["name"].ToString();
                     emp.email = reader["email"].ToString();
                     emp.address = reader["address"].ToString();
@@ -77,6 +69,5 @@ namespace dbEmployeeInfoSave
             connection.Close();
             return employeeList;
         }
-        //private void 
     }
 }
