@@ -22,5 +22,15 @@ namespace dbEmployeeInfoSave.BLL
             }
             
         }
+
+        public void Search(string name)
+        {
+            
+        }
+
+        public List<EmployeeInfo> LoadAllEmp()
+        {
+            return connector.LoadAllEmp();
+        } 
     }
 }

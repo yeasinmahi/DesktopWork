@@ -52,5 +52,14 @@ namespace dbEmployeeInfoSave
             
             
         }
+
+        private void searchButton_Click(object sender, EventArgs e)
+        {
+            Search searchForm = new Search();
+            searchForm.Show();
+            this.Hide();
+            //this.Dispose();
+
+        }
     }
 }

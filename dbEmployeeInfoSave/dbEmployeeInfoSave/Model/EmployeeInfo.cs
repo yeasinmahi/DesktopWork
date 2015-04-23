@@ -9,6 +9,7 @@ namespace dbEmployeeInfoSave.Model
 {
     public class EmployeeInfo
     {
+        public int id;
         public string name;
         public string email;
         public string address;
