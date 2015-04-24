@@ -34,8 +34,8 @@ namespace dbEmployeeInfoSave.UI
 
         private void backButton_Click(object sender, EventArgs e)
         {
-            Form1 parent = (Form1) this.Parent;
-            parent.Show();
+            Form1 form1 = new Form1();
+            form1.Show();
             Close();
             Dispose();
 
