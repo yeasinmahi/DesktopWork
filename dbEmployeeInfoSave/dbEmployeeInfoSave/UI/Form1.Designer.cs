@@ -1,4 +1,4 @@
-﻿namespace dbEmployeeInfoSave
+﻿namespace dbEmployeeInfoSave.UI
 {
     partial class Form1
     {
@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.searchButton = new System.Windows.Forms.Button();
             this.saveButton = new System.Windows.Forms.Button();
             this.addressRichTextBox = new System.Windows.Forms.RichTextBox();
             this.salaryTextBox = new System.Windows.Forms.TextBox();
@@ -38,7 +39,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.searchButton = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,14 +56,24 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(13, 13);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(351, 284);
+            this.groupBox1.Size = new System.Drawing.Size(429, 306);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Employee Entry";
             // 
+            // searchButton
+            // 
+            this.searchButton.Location = new System.Drawing.Point(167, 239);
+            this.searchButton.Name = "searchButton";
+            this.searchButton.Size = new System.Drawing.Size(75, 23);
+            this.searchButton.TabIndex = 9;
+            this.searchButton.Text = "Search";
+            this.searchButton.UseVisualStyleBackColor = true;
+            this.searchButton.Click += new System.EventHandler(this.searchButton_Click);
+            // 
             // saveButton
             // 
-            this.saveButton.Location = new System.Drawing.Point(203, 235);
+            this.saveButton.Location = new System.Drawing.Point(280, 239);
             this.saveButton.Name = "saveButton";
             this.saveButton.Size = new System.Drawing.Size(75, 23);
             this.saveButton.TabIndex = 8;
@@ -73,37 +83,37 @@
             // 
             // addressRichTextBox
             // 
-            this.addressRichTextBox.Location = new System.Drawing.Point(132, 118);
+            this.addressRichTextBox.Location = new System.Drawing.Point(167, 122);
             this.addressRichTextBox.Name = "addressRichTextBox";
-            this.addressRichTextBox.Size = new System.Drawing.Size(146, 60);
+            this.addressRichTextBox.Size = new System.Drawing.Size(188, 60);
             this.addressRichTextBox.TabIndex = 7;
             this.addressRichTextBox.Text = "";
             // 
             // salaryTextBox
             // 
-            this.salaryTextBox.Location = new System.Drawing.Point(132, 194);
+            this.salaryTextBox.Location = new System.Drawing.Point(167, 198);
             this.salaryTextBox.Name = "salaryTextBox";
-            this.salaryTextBox.Size = new System.Drawing.Size(146, 20);
+            this.salaryTextBox.Size = new System.Drawing.Size(188, 20);
             this.salaryTextBox.TabIndex = 6;
             // 
             // emailTextBox
             // 
-            this.emailTextBox.Location = new System.Drawing.Point(132, 79);
+            this.emailTextBox.Location = new System.Drawing.Point(167, 83);
             this.emailTextBox.Name = "emailTextBox";
-            this.emailTextBox.Size = new System.Drawing.Size(146, 20);
+            this.emailTextBox.Size = new System.Drawing.Size(188, 20);
             this.emailTextBox.TabIndex = 5;
             // 
             // nameTextBox
             // 
-            this.nameTextBox.Location = new System.Drawing.Point(132, 41);
+            this.nameTextBox.Location = new System.Drawing.Point(167, 45);
             this.nameTextBox.Name = "nameTextBox";
-            this.nameTextBox.Size = new System.Drawing.Size(146, 20);
+            this.nameTextBox.Size = new System.Drawing.Size(188, 20);
             this.nameTextBox.TabIndex = 4;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(39, 201);
+            this.label4.Location = new System.Drawing.Point(74, 205);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(36, 13);
             this.label4.TabIndex = 3;
@@ -112,7 +122,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(39, 144);
+            this.label3.Location = new System.Drawing.Point(74, 148);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(45, 13);
             this.label3.TabIndex = 2;
@@ -121,7 +131,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(39, 79);
+            this.label2.Location = new System.Drawing.Point(74, 83);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(32, 13);
             this.label2.TabIndex = 1;
@@ -130,30 +140,20 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(39, 41);
+            this.label1.Location = new System.Drawing.Point(74, 45);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Name";
             // 
-            // searchButton
-            // 
-            this.searchButton.Location = new System.Drawing.Point(122, 235);
-            this.searchButton.Name = "searchButton";
-            this.searchButton.Size = new System.Drawing.Size(75, 23);
-            this.searchButton.TabIndex = 9;
-            this.searchButton.Text = "Search";
-            this.searchButton.UseVisualStyleBackColor = true;
-            this.searchButton.Click += new System.EventHandler(this.searchButton_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(376, 309);
+            this.ClientSize = new System.Drawing.Size(454, 331);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Employee Informatin ";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

@@ -1,18 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using dbEmployeeInfoSave.Model;
 
-namespace dbEmployeeInfoSave
+namespace dbEmployeeInfoSave.DAL
 {
-    class dbConnector
+    class DbConnector
     {
-        private string connectionString = @"server=.\SQLEXPRESS; database=employee; integrated security=true;";
-        List<EmployeeInfo> employeeList= new List<EmployeeInfo>(); 
+        //private string connectionString = @"server=.\SQLEXPRESS; database=employee; integrated security=true;";
+        private string connectionString = ConfigurationManager.ConnectionStrings["empConnection"].ConnectionString;
         public bool InsertData(EmployeeInfo emp)
         {
             string query = "insert into [emp] ([name],[email],[address],[salary]) values ('"+emp.name+"','"+emp.email+"','"+emp.address+"',"+emp.salary+")";
@@ -25,15 +22,12 @@ namespace dbEmployeeInfoSave
             {
                 return true;
             }
-            else
-            {
-                return false;
-            }
+            return false;
         }
 
         public List<EmployeeInfo> SearchByName(string name)
         {
-            string query = "select * from [emp] where [name] like %"+name+"%";
+            string query = "select * from [emp] where [name] like '%"+name+"%'";
             return GiveEmpInfo(query);
         }
 
@@ -48,6 +42,8 @@ namespace dbEmployeeInfoSave
             SqlConnection connection = new SqlConnection(connectionString);
             SqlCommand command = new SqlCommand(query, connection);
 
+            List<EmployeeInfo> employeeList = new List<EmployeeInfo>();
+
             connection.Open();
             SqlDataReader reader = command.ExecuteReader();
             if (reader.HasRows)
@@ -55,16 +51,13 @@ namespace dbEmployeeInfoSave
                 while (reader.Read())
                 {
                     EmployeeInfo emp = new EmployeeInfo();
+                    emp.id = Convert.ToInt32(reader["id"].ToString());
                     emp.name = reader["name"].ToString();
                     emp.email = reader["email"].ToString();
                     emp.address = reader["address"].ToString();
                     emp.salary = Convert.ToDouble(reader["salary"].ToString());
                     employeeList.Add(emp);
                 }
-            }
-            else
-            {
-
             }
             connection.Close();
             return employeeList;

@@ -1,26 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
+using dbEmployeeInfoSave.DAL;
 using dbEmployeeInfoSave.Model;
 
 namespace dbEmployeeInfoSave.BLL
 {
     class EmpManager
     {
-        dbConnector connector = new dbConnector();
+        DbConnector connector = new DbConnector();
         public string Insert(EmployeeInfo employee)
         {
             if (connector.InsertData(employee))
             {
                 return "Saved Successfuly";
             }
-            else
-            {
-                return "A problem Occured in insert";
-            }
-            
+            return "A problem Occured in insert";
         }
 
         public List<EmployeeInfo> Search(string name)
