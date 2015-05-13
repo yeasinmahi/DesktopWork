@@ -47,7 +47,9 @@ namespace dbEmployeeInfoSave.UI
             listView1.Items.Clear();
 
             foreach (EmployeeInfo info in listEmployee)
-            {
+            {-0=-
+                .0.00                                                                                                                                                                                                                                                        
+                0
                 ListViewItem item = new ListViewItem {Text = info.id.ToString(CultureInfo.InvariantCulture)};
                 item.SubItems.Add(info.name);
                 item.SubItems.Add(info.email);
