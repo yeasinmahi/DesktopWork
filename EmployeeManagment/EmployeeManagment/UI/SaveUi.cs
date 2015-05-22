@@ -72,7 +72,6 @@ namespace EmployeeManagment.UI
             nameTextBox.Text = String.Empty;
             emailTextBox.Text = String.Empty;
             addressTextBox.Text = String.Empty;
-            designationComboBox.Refresh();
         }
 
         private void SaveUi_Load(object sender, EventArgs e)
@@ -87,6 +86,7 @@ namespace EmployeeManagment.UI
             //{
             //    designationComboBox.Items.Add(designation.code);
             //}
+            designationComboBox.DataSource = null;
             designationComboBox.DisplayMember = "code";
             designationComboBox.ValueMember = "desId";
             designationComboBox.DataSource = listDesignations;
