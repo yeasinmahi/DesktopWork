@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Globalization;
 using System.Windows.Forms;
 using FareManagement.BLL;
@@ -77,6 +78,9 @@ namespace FareManagement.UI
                 item.SubItems.Add(visitor.Contact);
                 visitorListView.Items.Add(item);
             }
+            
+            visitorListView.BackColor = Color.White;
+            visitorListView.ForeColor = Color.DarkBlue;
         }
     }
 }
