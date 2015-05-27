@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace FareManagement.UI
@@ -51,23 +45,111 @@ namespace FareManagement.UI
             Application.Exit();
         }
 
-        private void MenuUi_ResizeEnd(object sender, EventArgs e)
-        {
-            SetLabelPosition();
-        }
-
         private void SetLabelPosition()
         {
-            int screenWidth = ClientRectangle.Width;
-            int screenHeight = ClientRectangle.Height;
-            int labelHeight = dLabel.Height;
-            int labelwidth = dLabel.Width;
+            screenWidth = ClientRectangle.Width;
+            screenHeight = ClientRectangle.Height;
+            labelHeight = dLabel.Height;
+            labelwidth = dLabel.Width;
             dLabel.Location = new Point((screenWidth - labelwidth) / 2, (screenHeight - labelHeight) / 2);
+            widthDifference = screenWidth - 40;
+            heightDifference = screenHeight - 40;
         }
 
         private void MenuUi_ClientSizeChanged(object sender, EventArgs e)
         {
             SetLabelPosition();
+        }
+
+        private int screenWidth;
+        private int screenHeight;
+        private int labelHeight;
+        private int labelwidth;
+
+        private int widthDifference;
+        private int heightDifference;
+
+        private int blueX=500, blueY=500;
+        private int blueNewX=5, blueNewY=3;
+        private int greenX = 400, greenY = 300;
+        private int greenNewX=-5, greenNewY=5;
+        private int redX = 800, redY = 100;
+        private int redNewX=3, redNewY=-5;
+
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            BallMoveBlue();
+            BallMoveGreen();
+            BallMoveRed();
+        }
+
+        private void BallMoveBlue()
+        {
+            if (blueX > widthDifference)
+            {
+                blueNewX = -5;
+            }
+            else if (blueX < 0)
+            {
+                blueNewX = 5;
+            }
+            else if (blueY > heightDifference)
+            {
+                blueNewY = -3;
+            }
+            else if (blueY < 43)
+            {
+                blueNewY = 3;
+            }
+            blueX += blueNewX;
+            blueY += blueNewY;
+            bluePictureBox.Location = new Point(blueX, blueY);
+        }
+
+        private void BallMoveGreen()
+        {
+            if (greenX > widthDifference)
+            {
+                greenNewX = -5;
+            }
+            else if (greenX < 0)
+            {
+                greenNewX = 5;
+            }
+            else if (greenY > heightDifference)
+            {
+                greenNewY = -5;
+            }
+            else if (greenY < 43)
+            {
+                greenNewY = 5;
+            }
+            greenX += greenNewX;
+            greenY += greenNewY;
+            greenPictureBox.Location = new Point(greenX, greenY);
+        }
+        private void BallMoveRed()
+        {
+            if (redX > widthDifference)
+            {
+                redNewX = -3;
+            }
+            else if (redX < 0)
+            {
+                redNewX = 3;
+            }
+            else if (redY > heightDifference)
+            {
+                redNewY = -5;
+            }
+            else if (redY < 43)
+            {
+                redNewY = 5;
+            }
+            redX += redNewX;
+            redY += redNewY;
+            redPictureBox.Location = new Point(redX, redY);
         }
     }
 }
